@@ -22,7 +22,7 @@ $("#nombre").val(" ");
                 
                     $.ajax({
                       type: "POST",
-                      url: "conecta.php",
+                      url: "http://198.168.1.254/conecta.php",
                       data: ({name: elNombre, mail: elMail, telefono: elTelefono }),
                       cache: false,
                       dataType: "text",
